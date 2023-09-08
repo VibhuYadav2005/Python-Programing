@@ -6,8 +6,8 @@ In this problem Mr. Mandeep Singh will ask you question. In each question he wil
 
 Note: for bitwise-xor python use ^ symbol"""
 
-a=int(input())
-b=int(input())
+a=int(input("ENTER FIRST NUMBER TO CHECK:"))
+b=int(input("ENTER SECOND NUMBER TO CHECK:"))
 bit=a^b
 add=a+b
 if bit==add:
