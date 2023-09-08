@@ -9,7 +9,7 @@ floor(123.46) then it will return 123.000000
 ceil(123.46) then it will return 124.000000"""
 
 import math
-num=float(input())
+num=float(input("ENTER NUMBER :"))
 q=math.floor(num)
 s=math.ceil(num)
 print(q,".000000",sep="")
